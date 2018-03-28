@@ -15,8 +15,9 @@ the computers of the users.
 thus, collecting the software packages of the large scale
 Linux distributions and check how your softwares are used
 would be the second or third better options. nothing to
-say, you do not want to install the distribution just for
-such survey.
+say, sometimes you do not want to install the distribution
+just for such survey, because you are using something
+different already.
 
 fortunately, Debian provides the plain text database of
 their packages with the dependency (for runtime, and for
