@@ -29,6 +29,7 @@ examples
 
 how many packages depend on libpoppler-cpp in runtime?
 
+~~~
 $ ruby ./lookupPackageDependsOn.rb --debian-release-sed=deb-rel.sed  --packages libpoppler-cpp
 
 main    07.0    wheezy  2       libpoppler-cpp-dev,pdfgrep
@@ -36,9 +37,11 @@ main    08.0    jessie  3       libpoppler-cpp-dev,libreoffice-subsequentcheckba
 main    09.0    stretch 3       boomaga,libpoppler-cpp-dev,pdfgrep
 main    10.0    buster  3       boomaga,libpoppler-cpp-dev,pdfgrep
 main    unst    sid     4       boomaga,libevas-loaders,libpoppler-cpp-dev,pdfgrep
+~~~
 
 how many packages depend on libpoppler-private-dev in development?
 
+~~~
 $ ruby ./lookupPackageDependsOn.rb --debian-release-sed=deb-rel.sed  --sources libpoppler-private-dev
 
 main    07.0    wheezy  17      calibre,calligra,cups-filters,gambas3,gdal,gdcm,gnome-commander,inkscape,libextractor,libreoffice,luatex,pdf2djvu,pdfgrep,pdftoipe,popplerkit.framework,texlive-bin,xpdf
@@ -46,3 +49,4 @@ main    08.0    jessie  14      calligra,cups-filters,gambas3,gdal,gdcm,inkscape
 main    09.0    stretch 17      apvlv,boomaga,calligra,cups-filters,emacs-pdf-tools,extractpdfmark,gambas3,gdal,gdcm,inkscape,ipe-tools,libreoffice,pdf2djvu,popplerkit.framework,texlive-bin,texmaker,xpdf
 main    10.0    buster  15      apvlv,calligra,cups-filters,emacs-pdf-tools,extractpdfmark,gdal,gdcm,inkscape,ipe-tools,libreoffice,pdf2djvu,popplerkit.framework,texlive-bin,texmaker,xpdf
 main    unst    sid     17      apvlv,calligra,cups-filters,emacs-pdf-tools,extractpdfmark,gambas3,gdal,gdcm,inkscape,ipe-tools,libreoffice,pdf2djvu,popplerkit.framework,texlive-bin,texmaker,utopia-documents,xpdf
+~~~
