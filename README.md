@@ -27,7 +27,7 @@ and search the packages.
 examples
 --------
 
-how many packages depend on libpoppler-cpp in runtime?
+* how many packages depend on libpoppler-cpp in runtime?
 
 ~~~
 $ ruby ./lookupPackageDependsOn.rb --debian-release-sed=deb-rel.sed  --packages libpoppler-cpp
@@ -39,7 +39,7 @@ main    10.0    buster  3       boomaga,libpoppler-cpp-dev,pdfgrep
 main    unst    sid     4       boomaga,libevas-loaders,libpoppler-cpp-dev,pdfgrep
 ~~~
 
-how many packages depend on libpoppler-private-dev in development?
+* how many packages depend on libpoppler-private-dev in development?
 
 ~~~
 $ ruby ./lookupPackageDependsOn.rb --debian-release-sed=deb-rel.sed  --sources libpoppler-private-dev
