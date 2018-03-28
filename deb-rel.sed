@@ -1,0 +1,16 @@
+s/sid/unst/
+s/buster/10.0/
+s/stretch/09.0/
+s/jessie/08.0/
+s/wheezy/07.0/
+s/squeeze/06.0/
+s/lenny/05.0/
+s/etch/04.0/
+s/sarge/03.1/
+s/woody/03.0/
+s/potato/02.2/
+s/slink/02.1/
+s/hamm/02.0/
+s/bo/01.3/
+s/rex/01.2/
+s/buzz/01.1/
